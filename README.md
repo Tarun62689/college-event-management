@@ -13,10 +13,9 @@ GET    /reports/students/participation
 
 
 
+
 ```
 college-event-management
-├─ .env
-├─ package-lock.json
 ├─ package.json
 ├─ README.md
 ├─ server.js
@@ -25,11 +24,15 @@ college-event-management
    ├─ config
    │  └─ supabaseClient.js
    ├─ controllers
+   │  ├─ adminController.js
    │  ├─ authController.js
    │  ├─ eventController.js
    │  ├─ reportController.js
    │  └─ studentController.js
+   ├─ Middleware
+   │  └─ verifyAdmin.js
    ├─ routes
+   │  ├─ adminRoutes.js
    │  ├─ authRoutes.js
    │  ├─ eventRoutes.js
    │  ├─ reportRoutes.js
