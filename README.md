@@ -2,7 +2,7 @@
 
 Post   /auth/register
 Post   /auth/login
-POST   /events
+POST   /admin/events
 POST   /students/register
 PUT    /students/attendance/:id
 PUT    /students/feedback/:id
