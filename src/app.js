@@ -17,7 +17,7 @@ app.use(express.json());
 // Configure CORS explicitly
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://yourfrontenddomain.com"], // frontend URLs allowed
+    origin: ["http://localhost:5173", "https://admin-portal-3f7t.onrender.com"], // frontend URLs allowed
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true, // allow cookies or Authorization headers
   })
